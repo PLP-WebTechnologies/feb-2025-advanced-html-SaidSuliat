@@ -1,0 +1,127 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists, Images, Tables & Forms</title>
+        </head>
+        <body>
+            <h1>HTML Lists</h1>
+            <h3>Ordered Lists</h3>
+            <ol type="i" start="5">
+                <li>Software Engineering</li>
+                <li>Web Development</li>
+                <li>Python</li>
+                <li>Database</li>
+                <li>Startup Building</li>
+            </ol>
+            <h3>Unordered Lists</h3>
+            <ul type="square">
+                <li>Mr. Chakin</li>
+                <li>Miss. Susan</li>
+                <li>Mr. Eddy</li>
+                <li>Mr. Gerald</li>
+                <li>Miss. Nelly</li>
+            </ul>
+            <h3>Definition Lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+                <dt>PHP</dt>
+                <dd>Hyper Text Preprocessor</dd>
+                <dt>SQL</dt>
+                <dd>Structured Query Language</dd>
+            </dl>
+            <h1>HTML Images</h1>
+            <img src="Blue Eggs.jpg" alt="Image of blue eggs on a light background" width="350" height="550">
+            <img src="https://images.pexels.com/photos/31057802/pexels-photo-31057802/free-photo-of-couple-enjoying-relaxing-view-in-shanghai-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A Couple relaxing in a park" width="350" height="550">
+            <h1>HTML Tables</h1>
+            <table border="3">
+                <caption>Contact Information</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hertz</td>
+                        <td>Said</td>
+                        <td>Ilorin, Nigeria</td>
+                        <td>ummelbanaat@duck.com</td>
+                        <td>+2349011557263</td>
+                    </tr>
+                    <tr>
+                        <td>AbdulMujeeb</td>
+                        <td>Abidoye</td>
+                        <td>Jos, Nigeria</td>
+                        <td>mjb247@gmail.com</td>
+                        <td>+2348030768106</td>
+                    </tr>
+                    <tr>
+                        <td>AbdusSamad</td>
+                        <td>Mofolohunso</td>
+                        <td>Akure, Nigeria</td>
+                        <td>abusekinah@gmail.com</td>
+                        <td>+2349123006101</td>
+                    </tr>
+                    <tr>
+                        <td>Suyuti</td>
+                        <td>Adeniyi</td>
+                        <td>Leme, Nigeria</td>
+                        <td>aburufayqah@gmail.com</td>
+                        <td>+2347061430082</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                    </tr>
+                </tfoot>
+            </table border="3">
+            </table>
+            <h1>HTML Forms</h1> 
+            <form action="" method="">
+                <label for="name">Name:</label>
+                <input type="text" id="student_name" name="student_name" required>
+                <br><br>
+                <label for="Email">Email:</label>
+                <input type="text" id="student_email" name="student_email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="text" id="student_password" name="student_password" required>
+                <br><br>
+                <label for="date">Date of Birth:</label>
+                <input type="text" id="birth_date" name="birth_date" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <br><br>
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="music"> Music
+                <input type="checkbox" name="hobbies" value="art"> Art
+                <input type="checkbox" name="hobbies" value="travel"> Travel
+                <br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Kenya">Kenya</option>
+                </select>
+                <br><br>
+                <label for="description">Bio:</label>
+                <textarea id="description" name="description"></textarea>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="Cancel">
+            </form>
+        </body>
+    </html>
